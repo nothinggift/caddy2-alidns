@@ -1,8 +1,7 @@
 FROM caddy:2.5.1-builder-alpine AS builder
 
 RUN xcaddy build \
-  --with github.com/caddy-dns/alidns \
-  --with github.com/kirsch33/realip
+  --with github.com/caddy-dns/alidns
 
 
 FROM caddy:2.5.1-alpine
