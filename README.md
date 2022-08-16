@@ -6,4 +6,4 @@ Caddy2 docker image with the following plugins:
 
 To pull the image:
 
-`docker pull aker91/caddy2-alidns:2.5.1`
+`docker pull aker91/caddy2-alidns:2.5.2`
